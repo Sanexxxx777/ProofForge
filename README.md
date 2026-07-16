@@ -34,4 +34,4 @@ Erdős problems with different methods:
 
 ---
 
-Built by Aleksandr Shulgin · [shulgin.is-a.dev](https://shulgin.is-a.dev)
+Built by Aleksandr Shulgin (@Aleksandr_NFA) · [shulgin.is-a.dev](https://shulgin.is-a.dev)
