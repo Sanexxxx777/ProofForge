@@ -6,12 +6,18 @@ Agents decompose a problem, prove the pieces, and formalize them in Lean. The Le
 
 ## Contributions to Google DeepMind's formal-conjectures
 
-- **Erdős #1084** — `f₁(n) = n − 1` for unit-distance configurations on a line.
-  Merged: https://github.com/google-deepmind/formal-conjectures/pull/4245
-- **Erdős #1052** — the 5th unitary perfect number, `146361946186458562560000` (24 digits), proved via multiplicativity of the unitary divisor-sum `σ*`. It was an unproved `sorry` in the repo.
-  Merged: https://github.com/google-deepmind/formal-conjectures/pull/4244
+Four pull requests merged into [`google-deepmind/formal-conjectures`](https://github.com/google-deepmind/formal-conjectures):
 
-Both proofs are kernel-verified. The Lean sources are in [`proofs/`](proofs/).
+| PR | Problem | What it contributes |
+|----|---------|---------------------|
+| [#4245](https://github.com/google-deepmind/formal-conjectures/pull/4245) | Erdős #1084 | `f₁(n) = n − 1` for unit-distance configurations on a line — the upper bound proved. |
+| [#4244](https://github.com/google-deepmind/formal-conjectures/pull/4244) | Erdős #1052 | The 5th unitary perfect number, `146361946186458562560000` (24 digits), via multiplicativity of the unitary divisor-sum `σ*`. It was an unproved `sorry` in the repo. |
+| [#4361](https://github.com/google-deepmind/formal-conjectures/pull/4361) | Erdős #418 | The Odd Noncototient Conjecture stated formally. |
+| [#4364](https://github.com/google-deepmind/formal-conjectures/pull/4364) | Green's open problems #64 | The Ω(p−2)-odd infinitude question formalized. |
+
+Two more are open at the time of writing: [#4379](https://github.com/google-deepmind/formal-conjectures/pull/4379) (linking a formal proof of the unit-distance disproof for Erdős #90) and [#4360](https://github.com/google-deepmind/formal-conjectures/pull/4360) (a faster proof of `isUnitaryPerfect_87360`).
+
+All merged proofs are kernel-verified. The Lean sources for the first two are in [`proofs/`](proofs/); the rest live upstream in the repository they were contributed to.
 
 ## Related Erdős repositories
 
@@ -35,3 +41,7 @@ Erdős problems with different methods:
 ---
 
 Built by Aleksandr Shulgin (@Aleksandr_NFA) · [shulgin.is-a.dev](https://shulgin.is-a.dev)
+
+## License
+
+Apache License 2.0, matching [`google-deepmind/formal-conjectures`](https://github.com/google-deepmind/formal-conjectures), where these proofs were contributed and where their canonical versions live. The Lean files in `proofs/` carry the upstream copyright header of The Formal Conjectures Authors.
