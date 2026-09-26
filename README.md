@@ -6,7 +6,7 @@ Agents decompose a problem, prove the pieces, and formalize them in Lean. The Le
 
 ## Contributions to Google DeepMind's formal-conjectures
 
-Four pull requests merged into [`google-deepmind/formal-conjectures`](https://github.com/google-deepmind/formal-conjectures):
+Six pull requests merged into [`google-deepmind/formal-conjectures`](https://github.com/google-deepmind/formal-conjectures):
 
 | PR | Problem | What it contributes |
 |----|---------|---------------------|
@@ -14,8 +14,10 @@ Four pull requests merged into [`google-deepmind/formal-conjectures`](https://gi
 | [#4244](https://github.com/google-deepmind/formal-conjectures/pull/4244) | Erdős #1052 | The 5th unitary perfect number, `146361946186458562560000` (24 digits), via multiplicativity of the unitary divisor-sum `σ*`. It was an unproved `sorry` in the repo. |
 | [#4361](https://github.com/google-deepmind/formal-conjectures/pull/4361) | Erdős #418 | The Odd Noncototient Conjecture stated formally. |
 | [#4364](https://github.com/google-deepmind/formal-conjectures/pull/4364) | Green's open problems #64 | The Ω(p−2)-odd infinitude question formalized. |
+| [#6509](https://github.com/google-deepmind/formal-conjectures/pull/6509) | Erdős #885 | The `k = 4` case proved with an explicit witness found by computer search: four numbers whose factor-difference sets share four elements (Bremner 2019, formalized). |
+| [#4379](https://github.com/google-deepmind/formal-conjectures/pull/4379) | Erdős #90 | The statement linked to an external Lean disproof (Boris Alexeev's formalization of OpenAI's 2026 counterexample), closing issue #4229. Not my proof. |
 
-Two more are open at the time of writing: [#4379](https://github.com/google-deepmind/formal-conjectures/pull/4379) (linking a formal proof of the unit-distance disproof for Erdős #90) and [#4360](https://github.com/google-deepmind/formal-conjectures/pull/4360) (a faster proof of `isUnitaryPerfect_87360`).
+One more is open at the time of writing: [#4360](https://github.com/google-deepmind/formal-conjectures/pull/4360) (a faster proof of `isUnitaryPerfect_87360`).
 
 All merged proofs are kernel-verified. The Lean sources for the first two are in [`proofs/`](proofs/); the rest live upstream in the repository they were contributed to.
 
